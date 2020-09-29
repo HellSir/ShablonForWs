@@ -1,0 +1,124 @@
+body{
+    font-family: 'Handlee' ,cursive ;
+}
+ul, li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.menu-bar{
+    color: #212121;
+    padding: 20px 0;
+}
+.menu__item{
+    margin-left: 37px;
+}
+.menu__item a{
+    font-family:'Handlee',cursive;
+    font-size: 20px;
+    color: #212121;
+}
+.menu__item a:hover{
+    text-decoration: none;
+    color: #00ffc4;
+}
+/*Header*/
+.header > div{
+    background-size: cover;
+    font-family:'Handlee',cursive;
+    color: #ffffff;
+    text-align: center;
+    padding: 160px 0;
+    background-image: url("image/header.png");
+}
+.header__title{
+    font-size: 55px;
+}
+.header__text{
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.button{
+    padding: 10px 25px;
+    margin: 0 10px;
+    color: white;
+    transition: 0.3s;
+}
+.button_empty{
+    background: transparent;
+    border: 2px solid white;
+}
+.button_full{
+    background:#00897b;
+    border: 2px solid #00897b;
+}
+.button_full:hover,
+.button_empty:hover{
+    border: 2px dotted white;
+    background: #04574e;
+    cursor: pointer;
+}
+
+/*О нас*/
+.about{
+    color: black;
+    background: white;
+    text-align: center;
+    padding-bottom: 125px;
+    padding-top: 120px;
+}
+.about__title{
+    font-family: 'Handlee' ,cursive ;
+    font-size: 30px;
+    font-weight: bold;
+}
+.about__text{
+    color: #212121;
+    font-size: 16px;
+    margin-bottom: 110px;
+}
+.about__h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/*Услуги*/
+.services{
+    color: black;
+    background: #e4fdf9;
+    text-align: center;
+    padding-bottom: 125px;
+    padding-top: 165px;
+}
+
+.our_card{
+    color: black;
+    background: white;
+    padding: 50px 20px 40px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+.our_card:hover{
+    background: #00897b;
+    color: white;
+    box-shadow: 0 10px 12px -3px rgba(0,0,0,2.26);
+}
+.our_card:hover .button_services{
+    border: 2px solid white;
+    color: white;
+}
+.our_card:hover .about__text{
+    transition: 0.3s;
+    color: white;
+}
+.button_services{
+    border: 2px solid black;
+    transition: 0.3s;
+    padding: 10px 12px 10px;
+    text-transform: uppercase;
+    background: transparent;
+    font-family: 'Handlee', cursive ;
+}
+.button_services:hover{
+    cursor: pointer;
+}
